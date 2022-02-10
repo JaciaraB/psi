@@ -99,7 +99,7 @@ body{
 }
 #bloco1{
   display: non;
-  background: lavende;
+  background: lavender;
 }
 #bloco2{
   height: 97vw;
@@ -129,7 +129,7 @@ body{
   margin: auto;
   position: relative;
   top: 10vw;
-  border: .8vw solid pink;
+  border: .8vw solid plum;
 }
 .img-foto{
   width: 100%;
@@ -160,6 +160,7 @@ body{
   position: relative;
   top: 5.5vw;
   font-weight: 600;
+  color: mediumpurple;
 }
 .foco{
   background: ;
@@ -169,7 +170,7 @@ body{
   margin: 2vw;
   position: relative;
   top: 5vw;
-  border: .8vw solid lavender;
+  border: .8vw solid mediumpurple;
   font-size: 6vw;
   font-weight: 700;
   color: white;
@@ -213,7 +214,7 @@ span{
   left: 16.3vw;
   top: -.5vw;
   margin: 1.8vw;
-  border: .8vw solid pink;
+  border: .8vw solid mediumpurple;
 }
 .img-link{
   width: 14vw;
