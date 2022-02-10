@@ -1,1 +1,242 @@
-
+body{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: 'roboto';
+  background: plum;
+}
+.cabecalho{
+  background: lavender;
+  width: 96vw;
+  height: 50vw;
+  margin: auto;
+  border-radius: 0 0 2vw 2vw;
+}
+.logo{
+  background: whitesmok;
+  width: 33vw;
+  height: 33vw;
+  border-radius: 100vw;
+  margin: auto;
+  position: relative;
+  top: 0;
+  order: .8vw solid white;
+}
+.img-logo{
+  width: 100%;
+  height: 100%;
+  border-radius: 100vw;
+}
+.titulo{
+  position: absolute;
+  background: re;
+  width: 96vw;
+  text-align: center;
+  top: 22vw;
+  font-size: 9vw;
+  color: pink;
+  font-weight: 600;
+  
+  background: -webkit-linear-gradient(blue, mediumpurple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitulo{
+  position: absolute;
+  background: re;
+  width: 96vw;
+  text-align: center;
+  top: 36vw;
+  letter-spacing: 1vw;
+  font-size: 4vw;
+  font-weight: 600;
+  color: pink;
+  
+  background: -webkit-linear-gradient(mediumpurple, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.titulo-bloco{
+  background: ;
+  width: 90vw;
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  font-weight: 500;
+  font-size: 6vw;
+  letter-spacing: vw;
+  text-align: center;
+  color: mediumpurple;
+}
+.container{
+  background: white;
+  width: 96vw;
+  height: 258vw;
+  margin: auto;
+  position: relative;
+  border-radius: 2vw;
+  top: 2vw;
+}
+.bloco{
+  background: pink;
+  width: 92vw;
+  height: 75vw;
+  margin: auto;
+  position: relative;
+  border-radius: 2vw;
+  margin-bottom: 2vw;
+  top: 2vw;
+}
+.video-bloco{
+  background: transparent;
+  width: 92vw;
+  height: 58vw;
+  position: relative;
+  box-shadow: none;
+  top: 17vw;
+  border-radius: 2vw;
+  ox-shadow: .5vw .5vw 3vw rgba(0,0,0,.2);
+}
+#bloco1{
+  display: non;
+  background: lavende;
+}
+#bloco2{
+  height: 97vw;
+  background: lavender;
+}
+#bloco3{
+  top: 2vw;
+  background: lavender;
+}
+#titulo-bloco2{
+  text-align: right;
+  background: ;
+  padding-right: 3vw;
+  left: 1.5vw;
+  top: -2vw;
+  font-size: 5vw;
+  width: 86vw;
+  font-weight: 600;
+  color: mediumpurple;
+  line-height: 7vw;
+}
+.especialidades{
+  background: plu;
+  width: 87vw;
+  height: 83vw;
+  border-radius: 2vw;
+  margin: auto;
+  position: relative;
+  top: 10vw;
+  border: .8vw solid pink;
+}
+.img-foto{
+  width: 100%;
+  height: ;
+  position: relative;
+  top: vw;
+  -webkit-filter: drop-shadow(.5vw .5vw .5vw);
+  filter: drop-shadow(.5vw .5vw .5vw grey);
+}
+.frase{
+  position: absolute;
+  width: 70vw;
+  background: plum;
+  font-weight: 500;
+  top: 62vw;
+  left: 9vw;
+  text-align: center;
+  color: white;
+  padding: 3vw;
+  border-radius: 3vw;
+  font-size: 4vw;
+}
+.atend{
+  background: ;
+  width: 92vw;
+  text-align: center;
+  font-size: 5vw;
+  position: relative;
+  top: 5.5vw;
+  font-weight: 600;
+}
+.foco{
+  background: ;
+  width: 86vw;
+  height: 55vw;
+  border-radius: 2vw;
+  margin: 2vw;
+  position: relative;
+  top: 5vw;
+  border: .8vw solid lavender;
+  font-size: 6vw;
+  font-weight: 700;
+  color: white;
+}
+span{
+  background: plum;
+  width: 50vw;
+  display: block;
+  transform: rotate(-3deg);
+  left: 2vw;
+  position: relative;
+  top: 2vw;
+  text-align: center;
+  z-index: 2;
+}
+.img-ansi{
+  width: 84vw;
+  height: 40vw;
+  margin: 3.8vw;
+  position: absolute;
+  top: 27vw;
+  border-radius: 0 0 2vw 2vw;
+}
+.redes{
+  background: white;
+  width: 96vw;
+  height: 20vw;
+  margin: auto;
+  border-radius: 2vw;
+  position: relative;
+  top: 4vw;
+}
+.link{
+  background: white;
+  width: 16vw;
+  height: 16vw;
+  display: block;
+  border-radius: 100vw;
+  float: left;
+  position: relative;
+  left: 16.3vw;
+  top: -.5vw;
+  margin: 1.8vw;
+  border: .8vw solid pink;
+}
+.img-link{
+  width: 14vw;
+  height: 14vw;
+  border-radius: 100vw;
+  margin: 1vw;
+  transition: .4s;
+}
+.img-link:hover{
+  transition: .4s;
+  transform: scale(1.1);
+}
+.rodape{
+  background: whitesmoke;
+  width: 96vw;
+  height: 30vw;
+  margin: auto;
+  border-radius: 2vw 2vw 0 0;
+  position: relative;
+  top: 6vw;
+}
+.img-rodape{
+  width: 100%;
+  height: 100%;
+  border-radius: 2vw 2vw 0 0;
+}
