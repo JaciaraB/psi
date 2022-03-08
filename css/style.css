@@ -170,13 +170,13 @@ body{
   margin: 2vw;
   position: relative;
   top: 5vw;
-  border: .8vw solid mediumpurple;
+  border: .8vw solid plum;
   font-size: 6vw;
   font-weight: 700;
   color: white;
 }
 span{
-  background: plum;
+  background: mediumpurple;
   width: 50vw;
   display: block;
   transform: rotate(-3deg);
